@@ -30,8 +30,8 @@ st.markdown('<p class="main-title">Ingeniería de Software: Desarrollo Frontend<
 st.markdown('<p class="subtitle">Sincronización Fullstack con Django & MySQL</p>', unsafe_allow_html=True)
 
 st.info("""
-**Descripción del Curso:** Esta asignatura transforma a los estudiantes de programadores de lógica en arquitectos de interfaces[cite: 1]. 
-El enfoque es 100% integrador: cada píxel diseñado en el frontend responde a un dato real gestionado en el backend de Django[cite: 1, 2].
+**Descripción del Curso:** Esta asignatura transforma a los estudiantes de programadores de lógica en arquitectos de interfaces. 
+El enfoque es 100% integrador: cada píxel diseñado en el frontend responde a un dato real gestionado en el backend de Django.
 """)
 
 st.divider()
@@ -77,8 +77,8 @@ with col1:
     st.markdown("""
     <div class="card-parcial">
         <h3>Parcial 1</h3>
-        <p><b>Foco:</b> Estructura y Estética Profesional[cite: 1].</p>
-        <p><i>Maquetación responsiva y estándares W3C[cite: 1].</i></p>
+        <p><b>Foco:</b> Estructura y Estética Profesional.</p>
+        <p><i>Maquetación responsiva y estándares W3C.</i></p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -86,8 +86,8 @@ with col2:
     st.markdown("""
     <div class="card-parcial">
         <h3>Parcial 2</h3>
-        <p><b>Foco:</b> Lógica y Dinamismo[cite: 1].</p>
-        <p><i>Consumo de APIs y manipulación del DOM[cite: 1].</i></p>
+        <p><b>Foco:</b> Lógica y Dinamismo.</p>
+        <p><i>Consumo de APIs y manipulación del DOM.</i></p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -95,8 +95,8 @@ with col3:
     st.markdown("""
     <div class="card-parcial">
         <h3>Parcial 3</h3>
-        <p><b>Foco:</b> Interacción Avanzada[cite: 1].</p>
-        <p><i>Seguridad, persistencia y CRUD completo[cite: 1].</i></p>
+        <p><b>Foco:</b> Interacción Avanzada.</p>
+        <p><i>Seguridad, persistencia y CRUD completo.</i></p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -106,26 +106,26 @@ tab1, tab2, tab3 = st.tabs(["Sesiones Parcial 1", "Sesiones Parcial 2", "Sesione
 
 with tab1:
     st.markdown("""
-    *   **Sesiones 1-2:** Ecosistema Web y HTML5 Semántico[cite: 3, 4].
-    *   **Sesiones 3-5:** CSS3 Profundo: Box Model, Flexbox y Grid[cite: 5, 6, 7].
-    *   **Sesiones 6-8:** Bootstrap 5: Grid System, Componentes y Responsive[cite: 8, 9, 10].
-    *   **Sesión 9:** **Evaluación:** Maquetación del Monolito Django[cite: 11].
+    *   **Sesiones 1-2:** Ecosistema Web y HTML5 Semántico.
+    *   **Sesiones 3-5:** CSS3 Profundo: Box Model, Flexbox y Grid.
+    *   **Sesiones 6-8:** Bootstrap 5: Grid System, Componentes y Responsive.
+    *   **Sesión 9:** **Evaluación:** Maquetación del Monolito Django.
     """)
 
 with tab2:
     st.markdown("""
-    *   **Sesiones 10-12:** JS Moderno, DOM y Gestión de Eventos[cite: 13, 14, 15].
-    *   **Sesiones 13-14:** Asincronía (Async/Await) y Formato JSON[cite: 16, 17].
-    *   **Sesiones 15-17:** Integración con Django API y Renderizado Dinámico[cite: 18, 19, 20].
-    *   **Sesión 18:** **Evaluación:** 'La Gran Conexión' Fullstack[cite: 12].
+    *   **Sesiones 10-12:** JS Moderno, DOM y Gestión de Eventos.
+    *   **Sesiones 13-14:** Asincronía (Async/Await) y Formato JSON.
+    *   **Sesiones 15-17:** Integración con Django API y Renderizado Dinámico.
+    *   **Sesión 18:** **Evaluación:** 'La Gran Conexión' Fullstack.
     """)
 
 with tab3:
     st.markdown("""
-    *   **Sesiones 19-20:** CRUD Completo y Gestión de Errores HTTP[cite: 22, 23].
-    *   **Sesiones 21-22:** LocalStorage y Filtros de Datos en Tiempo Real[cite: 24, 25].
-    *   **Sesiones 23-24:** Seguridad CSRF y Taller de Depuración (DevTools)[cite: 26, 27].
-    *   **Sesión 25:** **Evaluación Final:** Dashboard Integrador de Negocio[cite: 21].
+    *   **Sesiones 19-20:** CRUD Completo y Gestión de Errores HTTP.
+    *   **Sesiones 21-22:** LocalStorage y Filtros de Datos en Tiempo Real.
+    *   **Sesiones 23-24:** Seguridad CSRF y Taller de Depuración (DevTools).
+    *   **Sesión 25:** **Evaluación Final:** Dashboard Integrador de Negocio.
     """)
 
 st.sidebar.success("Selecciona una sesión en el menú para comenzar.")

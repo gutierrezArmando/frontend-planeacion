@@ -76,7 +76,7 @@ with col_bad:
 
 with col_good:
     st.success("### Estándar de Ingeniería (Semántico)")
-    st.write("Este código utiliza el estándar de la W3C, mejorando el SEO y la accesibilidad automáticamente[cite: 31].")
+    st.write("Este código utiliza el estándar de la W3C, mejorando el SEO y la accesibilidad automáticamente.")
     st.code("""
 <!-- Código Profesional: Etiquetas con significado -->
 <header>
@@ -114,7 +114,7 @@ st.markdown("""
 # --- AULA INVERTIDA ---
 st.warning("### 🏫 Aula Invertida")
 st.markdown("""
-1.  **Investigación:** ¿Qué es un **lector de pantalla** y cómo interactúa con las etiquetas `<nav>` y `<main>`?[cite: 31]
+1.  **Investigación:** ¿Qué es un **lector de pantalla** y cómo interactúa con las etiquetas `<nav>` y `<main>`?
 2.  **Práctica:** Instala la extensión **Lighthouse** en Chrome y audita el sitio web de tu universidad. ¿Qué puntaje de Accesibilidad tiene?
-3.  **Preparación:** Investiga los 3 tipos de selectores básicos de CSS (etiqueta, clase e ID) para la próxima sesión[cite: 31].
+3.  **Preparación:** Investiga los 3 tipos de selectores básicos de CSS (etiqueta, clase e ID) para la próxima sesión.
 """)
